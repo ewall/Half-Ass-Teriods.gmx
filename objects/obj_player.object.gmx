@@ -72,7 +72,12 @@ alarm[0] = 150;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed = max(speed - 0.01, 0)
+            <string>// un-pause code
+if (global.RoomBeforePause != -1) {
+    global.RoomBeforePause = -1;
+}
+
+speed = max(speed - 0.01, 0);
 </string>
           </argument>
         </arguments>

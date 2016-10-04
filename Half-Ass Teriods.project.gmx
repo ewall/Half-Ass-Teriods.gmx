@@ -31,9 +31,12 @@
     <object>objects\obj_spawner</object>
     <object>objects\obj_dead_player</object>
     <object>objects\obj_game_over</object>
+    <object>objects\obj_pause_text</object>
+    <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
+    <room>rooms\rm_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
